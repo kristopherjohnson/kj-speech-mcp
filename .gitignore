@@ -1,0 +1,27 @@
+# Binaries
+kj-speech-mcp
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Working files (not documentation)
+PLAN.md
+CONVERSATION.md
+PROMPT.md
+KJ-NOTES
+
+# Local tool configuration
+.claude/
+.mcp.json
+.vscode/

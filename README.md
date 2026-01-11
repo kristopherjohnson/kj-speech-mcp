@@ -227,16 +227,8 @@ go build -o kj-speech-mcp
 # Test the say command directly
 /usr/bin/say "Testing speech"
 
-# Test with different voices
-/usr/bin/say -v Samantha "Testing Samantha voice"
-/usr/bin/say -v Alex "Testing Alex voice"
-
-# Test with different rates
-/usr/bin/say -r 120 "Slower speech at 120 words per minute"
-/usr/bin/say -r 300 "Faster speech at 300 words per minute"
-
 # List available voices
-/usr/bin/say -v ?
+/usr/bin/say -v '?'
 ```
 
 ## License

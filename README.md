@@ -182,7 +182,7 @@ Use the speak tool to say "Fast speech" with voice "Alex" and rate 300
 
 Use the `list_voices` tool to get a complete list of available voices with their locales and descriptions. Alternatively, you can run:
 ```bash
-/usr/bin/say -v ?
+/usr/bin/say -v '?'
 ```
 
 Common voices include: Alex, Samantha, Victoria, Daniel, Karen, and many others in various languages.

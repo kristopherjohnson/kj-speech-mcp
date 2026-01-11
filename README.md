@@ -73,7 +73,7 @@ Replace `/path/to/kj-speech-mcp` with the actual path to the compiled binary.
 
 After updating the configuration:
 1. Restart Claude Desktop
-2. The `speak` tool will be available in your conversations
+2. The `speak` and `list_voices` tools will be available in your conversations
 
 ## Usage with Claude Code
 

@@ -81,18 +81,20 @@ Claude Code can automatically configure this MCP server using the `claude mcp ad
 
 If installed via `go install` (binary in PATH):
 ```bash
-claude mcp add kj-speech -- kj-speech-mcp
+claude mcp add kj-speech kj-speech-mcp
 ```
 
 If built from source or installed in a custom location:
 ```bash
-claude mcp add kj-speech -- /path/to/kj-speech-mcp
+claude mcp add kj-speech /path/to/kj-speech-mcp
 ```
 
 This will:
 1. Prompt you to confirm adding the server
-2. Update your Claude Code configuration (`~/.config/claude/config.json`)
+2. Update your Claude Code configuration
 3. Make the `speak` and `list_voices` tools available in all Claude Code sessions
+
+By default `claude mcp add` will add the server to the local (current directory) configuration. Use the `--scope user` option to make it available for all of the current user's sessions, or `--scope project` for project-level configuration.
 
 You can verify the server is configured by running:
 ```bash
